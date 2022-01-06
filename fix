@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo dnf install -y make gcc ranger neovim neofetch && sudo dnf install -y git wget tar && sudo dnf groupinstall -y "Development-Tools" 
