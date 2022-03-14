@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo dnf install -y make gcc meson cmake kitty-terminfo ranger neovim neofetch && sudo dnf install -y git wget tar && sudo dnf groupinstall -y "Development-Tools" 
+sudo dnf install -y make gcc meson cmake kitty-terminfo ranger neovim neofetch ; sudo dnf install -y git wget tar ; sudo dnf groupinstall -y "Development-Tools" ; sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y ; sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+ 
